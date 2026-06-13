@@ -1,0 +1,10 @@
+name: Hemlane Rate Limits
+description: Rate limit information for the Hemlane platform. Hemlane does not publish a formal public REST API; third-party integrations (e.g., via Supergood) apply their own rate-limit tuning to honor customer entitlements at portfolio scale.
+url: https://www.hemlane.com/
+notes:
+  - Hemlane does not currently offer a publicly documented official REST API or developer portal.
+  - No official rate-limit thresholds are published by Hemlane.
+  - Third-party integrations that interface with Hemlane (e.g., Supergood) implement their own throttling, described as "tuned for portfolio-scale sync while honoring customer entitlements."
+  - The Hemlane robots.txt disallows crawler access to /api, /graphql, and /graph paths, indicating internal API infrastructure that is not exposed publicly.
+  - Retry logic, exponential backoff, and idempotency keys are recommended by third-party integration providers.
+limits: []

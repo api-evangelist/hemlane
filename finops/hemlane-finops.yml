@@ -1,0 +1,59 @@
+name: Hemlane FinOps
+description: Financial operations and cost management details for the Hemlane property management platform, including plan costs, per-unit pricing, transaction fees, and add-on services.
+url: https://www.hemlane.com/pricing/
+
+cost_model:
+  type: subscription
+  billing_cycles:
+    - monthly
+    - annual
+  annual_discount: up to 20%
+
+plans:
+  - name: Starter
+    monthly_cost: 0
+    notes: Free forever, no credit card required.
+
+  - name: Basic
+    base_fee_monthly: 28
+    per_unit_fee_monthly: 2
+    example_1_unit_monthly: 30
+    trial_days: 14
+
+  - name: Essential
+    base_fee_monthly: 28
+    per_unit_fee_monthly: 20
+    example_1_unit_monthly: 48
+    trial_days: 14
+
+  - name: Complete
+    base_fee_monthly: 28
+    per_unit_fee_monthly: 58
+    example_1_unit_monthly: 86
+    trial_days: 14
+
+transaction_fees:
+  - name: ACH rent collection
+    fee: 0
+    notes: $0 ACH fees on Basic, Essential, and Complete plans.
+
+add_ons:
+  - name: Tenant Placement
+    one_time_cost_starting_at: 695
+    includes: lockbox fee
+
+  - name: Eviction Shield
+    monthly_cost_starting_at: 4.95
+
+  - name: Inspections
+    one_time_cost_starting_at: 300
+
+integrations:
+  - name: Stripe
+    purpose: Payment processing infrastructure
+  - name: Plaid
+    purpose: Bank account sync and verification
+  - name: QuickBooks
+    purpose: Accounting and financial reporting
+
+payments_processed: "$1.8B lifetime (as of 2026)"

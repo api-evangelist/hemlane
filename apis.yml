@@ -1,0 +1,62 @@
+aid: hemlane
+name: Hemlane
+description: Hemlane is a technology platform for managing long-term rental properties, combining AI tools with human support to assist with tenant placement, rent collection, lease management, maintenance coordination, and eviction support. The platform operates across all 50 US states and has processed over $1.8B in payments.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/hemlane/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Property Management
+  - Real Estate
+  - Rental
+  - Tenant Screening
+  - Lease Management
+  - Rent Collection
+  - Maintenance
+  - Landlord
+apis:
+  - aid: hemlane:hemlane-api
+    name: Hemlane API
+    description: Internal REST API powering the Hemlane property management platform, providing access to rental listings, tenant applications, lease tracking, rent payments, maintenance requests, and owner financial reporting. Hemlane does not publish a formal public developer API; integrations are available via iFrame embeds and third-party connectors.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.hemlane.com/property-management-software/
+    baseURL: https://www.hemlane.com/api
+    tags:
+      - Property Management
+      - Rentals
+      - Leases
+      - Payments
+      - Maintenance
+    properties:
+      - type: Documentation
+        url: https://support.hemlane.com/hc/en-us
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/hemlane/refs/heads/main/plans/hemlane-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/hemlane/refs/heads/main/rate-limits/hemlane-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/hemlane/refs/heads/main/finops/hemlane-finops.yml
+common:
+  - type: Website
+    url: https://www.hemlane.com/
+  - type: Documentation
+    url: https://support.hemlane.com/hc/en-us
+  - type: Blog
+    url: https://www.hemlane.com/resources/blog/
+  - type: Pricing
+    url: https://www.hemlane.com/pricing/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/hemlane
+  - type: X
+    url: https://twitter.com/hemlane
+  - type: Plans
+    url: plans/hemlane-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/hemlane-rate-limits.yml
+  - type: FinOps
+    url: finops/hemlane-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

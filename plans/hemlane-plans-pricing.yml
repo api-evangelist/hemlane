@@ -1,0 +1,73 @@
+name: Hemlane Plans and Pricing
+description: Pricing plans for the Hemlane property management platform, covering rental listings, tenant screening, lease management, rent collection, and maintenance coordination.
+url: https://www.hemlane.com/pricing/
+plans:
+
+  - name: Starter
+    description: Free forever plan with core marketing and screening tools for landlords getting started.
+    price: 0
+    unit: month
+    features:
+      - Advertising to 8+ listing sites
+      - Applicant and tenant screening (credit, criminal, eviction, income)
+      - Basic rental accounting with bank sync
+
+  - name: Basic
+    description: Adds lease tracking, rent collection with $0 ACH fees, e-signature, document storage, and tenant messaging.
+    price: 30
+    unit: month
+    base_fee: 28
+    per_unit_fee: 2
+    trial_days: 14
+    features:
+      - Lease tracking
+      - Document storage
+      - E-signature
+      - Rent collection with $0 ACH fees
+      - Tenant messaging
+      - Tenant perks
+
+  - name: Essential
+    description: Adds maintenance coordination with a dedicated repair coordinator, 24/7 emergency support, and state-specific leases.
+    price: 48
+    unit: month
+    base_fee: 28
+    per_unit_fee: 20
+    trial_days: 14
+    features:
+      - Dedicated repair coordinator
+      - 24/7 emergency support
+      - Automatic repair diagnosis
+      - Work order management
+      - State-specific leases
+
+  - name: Complete
+    description: Full-service plan with a property management assistant handling all tenant communications, VIP support, and access to vetted local networks.
+    price: 86
+    unit: month
+    base_fee: 28
+    per_unit_fee: 58
+    trial_days: 14
+    features:
+      - Property management assistant for all tenant communications
+      - Access to vetted repair network
+      - VIP support
+      - Local leasing and turnover network access
+
+add_ons:
+  - name: Tenant Placement
+    description: Local leasing service to find and place qualified tenants.
+    price_starting_at: 695
+    includes: lockbox fee
+
+  - name: Eviction Shield
+    description: Pre-eviction support and eviction protection service.
+    price_starting_at: 4.95
+    unit: month
+
+  - name: Inspections
+    description: Professional property inspection coordination.
+    price_starting_at: 300
+
+discounts:
+  - Save up to 20% with annual billing
