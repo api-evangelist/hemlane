@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://www.hemlane.com/",
+  "name": "Hemlane",
+  "description": "Hemlane is a technology platform for managing long-term rental properties, combining AI tools with human support to assist with tenant placement, rent collection, lease management, maintenance coordination, and eviction support. The platform operates across all 50 US states and has processed over $1.8B in payments.",
+  "url": "https://www.hemlane.com/",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "Property Management Software",
+  "operatingSystem": "Web",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Free",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Basic software forever at no cost"
+    },
+    {
+      "@type": "Offer",
+      "name": "Basic",
+      "price": "2",
+      "priceCurrency": "USD",
+      "description": "2 USD per unit per month"
+    },
+    {
+      "@type": "Offer",
+      "name": "Essential",
+      "price": "20",
+      "priceCurrency": "USD",
+      "description": "20 USD per unit per month, includes repair coordination"
+    },
+    {
+      "@type": "Offer",
+      "name": "Complete",
+      "price": "68",
+      "priceCurrency": "USD",
+      "description": "68 USD per unit per month, full management assistance"
+    }
+  ],
+  "featureList": [
+    "Rental advertising across 15+ listing sites",
+    "AI-generated rental descriptions",
+    "Tenant screening and applicant tracking",
+    "Lease management with eSignature",
+    "Automated rent collection with zero ACH fees",
+    "24/7 maintenance and repair coordination",
+    "Eviction prevention and legal support (Eviction Shield)",
+    "Financial tracking with bank account syncing",
+    "Cash flow reporting and income statements",
+    "Self-guided tours",
+    "SMS and email tenant communication",
+    "State-specific lease templates"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States",
+    "description": "Available in all 50 US states"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/hemlane",
+    "https://twitter.com/hemlane"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hemlane",
+    "url": "https://www.hemlane.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.hemlane.com/favicon.ico"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "url": "https://support.hemlane.com/hc/en-us"
+    }
+  },
+  "potentialAction": {
+    "@type": "UseAction",
+    "target": "https://www.hemlane.com/property-management-software/"
+  }
+}

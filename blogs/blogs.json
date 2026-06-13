@@ -1,0 +1,9 @@
+{
+  "aid": "hemlane",
+  "name": "Hemlane Blog",
+  "description": "Expert property management insights to grow your rentals, covering landlord tips, tenant screening, rent collection, lease management, maintenance, and eviction topics.",
+  "url": "https://www.hemlane.com/resources/blog/",
+  "lastFetched": "2026-06-13",
+  "note": "Blog content is dynamically rendered via JavaScript; individual post URLs could not be extracted from the static sitemap or page source. The sitemap.xml does not list blog post URLs.",
+  "posts": []
+}
