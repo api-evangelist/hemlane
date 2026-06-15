@@ -5,5 +5,14 @@
   "url": "https://www.hemlane.com/resources/blog/",
   "lastFetched": "2026-06-13",
   "note": "Blog content is dynamically rendered via JavaScript; individual post URLs could not be extracted from the static sitemap or page source. The sitemap.xml does not list blog post URLs.",
-  "posts": []
+  "posts": [],
+  "repo": "hemlane",
+  "feeds": [
+    {
+      "source": "https://support.hemlane.com/hc/en-us",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
