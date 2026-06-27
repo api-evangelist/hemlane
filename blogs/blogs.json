@@ -4,15 +4,16 @@
   "description": "Expert property management insights to grow your rentals, covering landlord tips, tenant screening, rent collection, lease management, maintenance, and eviction topics.",
   "url": "https://www.hemlane.com/resources/blog/",
   "lastFetched": "2026-06-13",
-  "note": "Blog content is dynamically rendered via JavaScript; individual post URLs could not be extracted from the static sitemap or page source. The sitemap.xml does not list blog post URLs.",
-  "posts": [],
+  "note": "Blog index is JavaScript-rendered; static HTML scrape and sitemap surface no individual post links or dates.",
   "repo": "hemlane",
   "feeds": [
     {
-      "source": "https://support.hemlane.com/hc/en-us",
-      "error": "HTTPError"
+      "source": "https://www.hemlane.com/resources/blog/",
+      "saved": 0,
+      "error": "JS-rendered listing; no post links/dates in static HTML or sitemap"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:45:32Z",
+  "agent_pulled": "2026-06-27"
 }
