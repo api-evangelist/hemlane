@@ -2,7 +2,19 @@ aid: hemlane
 name: Hemlane
 description: Hemlane is a technology platform for managing long-term rental properties, combining AI tools with human support to assist with tenant placement, rent collection, lease management, maintenance coordination, and eviction support. The platform operates across all 50 US states and has processed over $1.8B in payments.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hemlane.png
 url: https://raw.githubusercontent.com/api-evangelist/hemlane/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
