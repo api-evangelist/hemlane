@@ -32,7 +32,7 @@ modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
   - Property Management
-  - Real-Estate
+  - Real Estate
   - Rentals
   - Tenant Screening
   - Lease Management
@@ -48,6 +48,7 @@ tags_raw:
   - Rent Collection
   - Maintenance
   - Landlord
+  - Real-Estate
 apis:
   - aid: hemlane:hemlane-api
     name: Hemlane API
