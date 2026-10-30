@@ -66,18 +66,110 @@
 
 Hemlane is a technology platform for managing long-term rental properties, combining AI tools with human support to assist with tenant placement, rent collection, lease management, maintenance coordination, and eviction support. The platform operates across all 50 US states and has processed over $1.8B in payments.
 
-**Website:** https://www.hemlane.com/  
-**Documentation:** https://support.hemlane.com/hc/en-us  
-**Pricing:** https://www.hemlane.com/pricing/  
-**Blog:** https://www.hemlane.com/resources/blog/  
-**LinkedIn:** https://www.linkedin.com/company/hemlane  
-**X:** https://twitter.com/hemlane  
+**Areas:** Property Management · Real Estate · Rentals · Tenant Screening · Lease Management · Rent Collection · Maintenance · Landlords
 
-## APIs.json
+## Hemlane on APIs.io
 
-This repository contains an APIs.json 0.19 profile for Hemlane, cataloging the platform's API surface, pricing plans, rate limits, and financial operations details.
+Everything profiled for Hemlane is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hemlane/](https://apis.io/providers/hemlane/)** — or go straight to one of the APIs or properties below.
 
-- [apis.yml](apis.yml) — APIs.json index
-- [plans/hemlane-plans-pricing.yml](plans/hemlane-plans-pricing.yml) — Pricing plans
-- [rate-limits/hemlane-rate-limits.yml](rate-limits/hemlane-rate-limits.yml) — Rate limit details
-- [finops/hemlane-finops.yml](finops/hemlane-finops.yml) — Financial operations
+### APIs (1)
+
+- [Hemlane API](https://apis.io/apis/hemlane/hemlane-api/) — Internal REST API powering the Hemlane property management platform, providing access to rental listings, tenant applications, lease tracking, rent…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [hemlane](https://apis.io/servers/hemlane/hemlane/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hemlane Domain Security](https://apis.io/security/hemlane/hemlane-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hemlane Plans Pricing](https://apis.io/plans/hemlane/hemlane-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Hemlane Rate Limits](https://apis.io/rate-limits/hemlane/hemlane-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Hemlane Finops](https://apis.io/finops/hemlane/hemlane-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hemlane.com/)
+- [Documentation](https://support.hemlane.com/hc/en-us)
+- [Pricing](https://www.hemlane.com/pricing/)
+- [Blog](https://www.hemlane.com/resources/blog/)
+
+## API Evangelist rating
+
+**Kin Score 11.5** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 11.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hemlane/](https://apis.io/providers/hemlane/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hemlane: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hemlane/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
